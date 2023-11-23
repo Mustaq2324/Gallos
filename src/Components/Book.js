@@ -76,7 +76,7 @@ function Book() {
                     <option>09.00 Pm</option>
                 </select>
                 </div>
-                <div className="bg-[#DA3743] flex items-center justify-center hover:bg-opacity-60 cursor-pointer h-[40px] w-[200px] px-2">
+                <div className="bg-[#DA3743] flex items-center justify-center hover:bg-opacity-60 cursor-pointer h-[40px] w-[230px] px-2">
                     <button  className=" text-white" type="button">Find a Table</button>
                 </div>
             </form>
