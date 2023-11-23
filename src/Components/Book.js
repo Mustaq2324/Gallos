@@ -6,8 +6,8 @@ import { FaRegClock } from "react-icons/fa6"
 function Book() {
   return (
     <div>
-      <div className="bg-[#F7E5B3]  w-full">
-        <div className=" flex items-center justify-center flex-col  h-full gap-3">
+      <div className="bg-[#F7E5B3]   w-full">
+        <div className=" flex items-center justify-center pt-8 flex-col  h-full gap-3">
           <h1 className="font-vast-shadow text-black text-2xl pt-5 lg:pt-0 lg:text-5xl">
             RESERVATIONS
           </h1>
@@ -18,7 +18,7 @@ function Book() {
           <div className="mt-5 flex flex-col items-center lg:block bg-white lg:bg-[#F7E5B3] px-4 pt-4 overflow-hidden">
             <p className="text-gray-800 font-semibold text-lg mb-2">Find a Table</p>
             <form className="flex flex-col lg:flex-row ">
-              <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[200px] px-2 border-2 ">
+              <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[230px] px-2 border-2 ">
                 <label htmlFor="register">
                   {" "}
                   <IoPersonOutline className="text-lg cursor-pointer" />
@@ -45,14 +45,14 @@ function Book() {
                   <option>20 People</option>
                 </select>
               </div>
-              <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[200px] px-3 border-2 ">
+              <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[230px] px-3 border-2 ">
                 <input
                   className="mx-auto outline-none border-none w-full bg-none cursor-pointer"
                   placeholder="sadonka"
                   type="date"
                 />
               </div>
-              <div className='flex items-center cursor-pointer justify-center gap-1 bg-white h-[40px] w-[200px] px-2 border-2 '>
+              <div className='flex items-center cursor-pointer justify-center gap-1 bg-white h-[40px] w-[230px] px-2 border-2 '>
               <label htmlFor="register" >  <FaRegClock className='text-lg cursor-pointer' /></label>
                 <select className='mx-auto outline-none border-none w-full bg-none cursor-pointer'>
                     <option>Now</option>
