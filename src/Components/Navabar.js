@@ -41,14 +41,14 @@ function Navabar() {
         </video>
 
         {show ? (
-          <div className="fixed w-full top-0 z-10 overflow-x-hidden bg-[#F7E5B3] transition-all duration-500 ">
+          <div className="fixed w-full top-0 z-50 overflow-x-hidden bg-[#F7E5B3] transition-all duration-500 ">
             <div className="flex items-center justify-between">
               <img
                 className="object-cover mt-1 w-[150px] lg:w-[200px] transition-all duration-500 lg:mx-auto"
                 src={logo}
               />
               {/* mobile */}
-              <div className="flex justify-center items-center lg:hidden">
+              <div className=" flex justify-center items-center lg:hidden">
                 <div className="h-[30px] cursor-pointer w-[30px] hover:bg-[#92553D] flex items-center justify-center">
                   <a href="https://www.instagram.com/galloskitchenua/">
                     <GrInstagram className="text-black rounded" />
@@ -72,11 +72,11 @@ function Navabar() {
             <div
               className={
                 drop
-                  ? "h-[260px] transition-all duration-1000 w-[100%]  lg:hidden"
-                  : "h-0 transition-all duration-1000 w-[100%] bg-black bg-opacity-[0.6] lg:hidden"
+                  ? "h-[260px]  transition-all duration-700 w-[100%] lg:hidden "
+                  : "h-0 overflow-hidden transition-all duration-700 w-[100%]  opacity-0 lg:hidden"
               }
             >
-              <ul className="flex flex-col   justify-center font-[reemkufi] gap-3 ">
+              <ul className="flex flex-col   justify-center font-[reemkufi] gap-3 overflow-hidden ">
                 <li className="text-black cursor-pointer mt-2 ps-2  hover:bg-[#92553D]">
                   MENU
                 </li>
@@ -102,7 +102,7 @@ function Navabar() {
             </div>
             {/* laptop  */}
             <div className="mt-1 lg:flex items-center justify-center hidden pb-2 ">
-              <ul className="flex gap-5 justify-center text-lg items-center">
+              <ul className="flex gap-5 justify-center text-lg items-center ">
                 <li className="text-black cursor-pointer hover:text-[#92553D]">
                   MENU
                 </li>
@@ -170,7 +170,7 @@ function Navabar() {
               className={
                 drop
                   ? "h-[260px] transition-all duration-1000 w-[100%] bg-black bg-opacity-[0.6] lg:hidden"
-                  : "h-0 transition-all duration-1000 w-[100%] bg-black bg-opacity-[0.6] lg:hidden"
+                  : "h-0 transition-all duration-1000 w-[100%] bg-black opacity-0 lg:hidden overflow-hidden"
               }
             >
               <ul className="flex flex-col   justify-center font-[reemkufi] gap-3 ">
