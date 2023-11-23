@@ -7,8 +7,8 @@ function Book() {
   return (
     <div>
       <div className="bg-[#F7E5B3]   w-full">
-        <div className=" flex items-center justify-center pt-8 flex-col  h-full gap-3">
-          <h1 className="font-vast-shadow text-black text-2xl pt-5 lg:pt-0 lg:text-5xl">
+        <div className=" flex items-center justify-center pt-16 flex-col  h-full gap-3 pb-16">
+          <h1 className="font-vast-shadow text-black text-2xl pt-4 lg:pt-0 lg:text-5xl">
             RESERVATIONS
           </h1>
           <p className="font-[Antonio] text-center lg:text-start">
