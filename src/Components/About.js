@@ -33,13 +33,13 @@ function About() {
     
     <div className=''>
       <div
-        className={`fixed h-[40px] flex items-center justify-center w-[40px] bg-[#E8AF3E] rounded-full bottom-4 text-4xl right-4 z-30 ${
+        className={`fixed h-[40px] flex items-center justify-center w-[40px] bg-black rounded-full bottom-4 text-4xl right-4 z-30 ${
           isVisible ? "visible" : "hidden"
         }`}
         onClick={handleScrollToTop}
         style={{ cursor: "pointer" }}
       >
-        <LuChevronsUp className="text-black" />
+        <LuChevronsUp className="text-[#E8AF3E]" />
       </div>
      <div className='grid grid-rows-1 lg:grid-cols-2 ' >
   <div data-aos="fade-up-right">
