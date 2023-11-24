@@ -47,8 +47,8 @@ function Book() {
               </div>
               <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[230px] px-3 border-2 ">
                 <input
-                  className="mx-auto outline-none border-none w-full bg-white cursor-pointer"
-                  placeholder="sadonka"
+                  className="mx-auto outline-none border-none w-full bg-white cursor-pointer placeholder:text-black"
+                  placeholder="Today"
                   type="date"
                 />
               </div>
