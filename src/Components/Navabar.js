@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { GrInstagram } from "react-icons/gr";
 import { FaYelp } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
-import logo from "../Assest/logo.png";
-import logo1 from "../Assest/logo1.png";
+import logo1 from "../Assest/logo (1).png";
+import logo from "../Assest/logo_onscroll.png";
 function Navabar() {
   const [drop, setDrop] = useState(false);
   const [show, setShow] = useState(false);
@@ -141,7 +141,7 @@ function Navabar() {
           <div className="fixed w-full top-0 z-10 overflow-x-hidden transition-all duration-500 ">
             <div className="flex items-center justify-between">
               <img
-                className="object-cover mt-2 w-[150px] lg:w-[350px] transition-all duration-500 lg:mx-auto"
+                className="object-cover mt-2 w-[150px] lg:w-[250px] transition-all duration-500 lg:mx-auto"
                 src={logo1}
               />
               {/* mobile */}

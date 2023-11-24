@@ -8,6 +8,7 @@ import Book from '../Components/Book'
 import Carousel from '../Components/Carousel'
 import MyComponent from '../Components/Testimonal'
 import Newsletter from '../Components/Newsletter'
+import Footer from '../Components/Footer'
 function Home() {
   return (
     <div className='overflow-x-hidden'>
@@ -20,6 +21,7 @@ function Home() {
    <Carousel/>
    <MyComponent/>
    <Newsletter/>
+   <Footer/>
     </div>
   )
 }
