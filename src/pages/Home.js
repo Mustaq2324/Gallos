@@ -6,6 +6,8 @@ import About from '../Components/About'
 import Order from '../Components/Order'
 import Book from '../Components/Book'
 import Carousel from '../Components/Carousel'
+import MyComponent from '../Components/Testimonal'
+import Newsletter from '../Components/Newsletter'
 function Home() {
   return (
     <div className='overflow-x-hidden'>
@@ -16,6 +18,8 @@ function Home() {
    <Gallery/>
    <Book/>
    <Carousel/>
+   <MyComponent/>
+   <Newsletter/>
     </div>
   )
 }

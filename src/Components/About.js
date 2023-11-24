@@ -10,7 +10,7 @@ function About() {
     <img className='object-cover' src={img} alt="Description" />
     
   </div>
-  <div className='bg-contain text-center lg:px-10' style={{ backgroundImage: `url(${wallpaper})` }}>
+  <div className=' text-center lg:px-10 bg-no-repeat bg-cover' style={{  backgroundImage: " url('https://static.spotapps.co/web/galloskitchen--com/custom/reviews_bg.jpg')"}}>
     <div className='flex flex-col items-center justify-center h-full gap-3'>
       <h1 className='font-vast-shadow text-white text-2xl pt-5 lg:pt-0 lg:text-5xl'>ABOUT US</h1>
       <img className='mx-auto w-[100px] lg:w-[150px]' src={chicken} alt="Chicken" />

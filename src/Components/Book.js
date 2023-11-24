@@ -23,7 +23,7 @@ function Book() {
                   {" "}
                   <IoPersonOutline className="text-lg cursor-pointer" />
                 </label>
-                <select className="mx-auto outline-none border-none w-full bg-none cursor-pointer">
+                <select className="mx-auto outline-none border-none w-full bg-white cursor-pointer">
                   <option>2 People</option>
                   <option>3 People</option>
                   <option>4 People</option>
@@ -47,14 +47,14 @@ function Book() {
               </div>
               <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[230px] px-3 border-2 ">
                 <input
-                  className="mx-auto outline-none border-none w-full bg-none cursor-pointer"
+                  className="mx-auto outline-none border-none w-full bg-white cursor-pointer"
                   placeholder="sadonka"
                   type="date"
                 />
               </div>
               <div className='flex items-center cursor-pointer justify-center gap-1 bg-white h-[40px] w-[230px] px-2 border-2 '>
               <label htmlFor="register" >  <FaRegClock className='text-lg cursor-pointer' /></label>
-                <select className='mx-auto outline-none border-none w-full bg-none cursor-pointer'>
+                <select className='mx-auto outline-none border-none w-full bg-white cursor-pointer'>
                     <option>Now</option>
                     <option>12.30 Pm</option>
                     <option>01.00 Pm</option>

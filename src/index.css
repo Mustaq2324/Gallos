@@ -6,3 +6,6 @@
 .swiper-button-next {
   color: white !important;
 }
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+ background:white;
+}
