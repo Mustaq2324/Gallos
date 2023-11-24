@@ -1,24 +1,25 @@
 import React from "react";
 import chicken from "../Assest/Rooster-Background-PNG.png";
-
+import f from "aos"
 function Newsletter() {
+  f.init({duration:1000})
   return (
     <div className="flex flex-col lg:flex-row ">
       <div className="bg-[#F7E5B3] h-[500px] w-full flex justify-center items-center ">
         <div className=" flex justify-center  flex-col  h-full gap-8 items-center lg:items-start ">
-          <h1 className="font-vast-shadow text-black text-2xl  lg:text-5xl">
+          <h1 data-aos="flip-up" className="font-vast-shadow text-black text-2xl  lg:text-5xl">
             NEWSLETTER
           </h1>
-          <p className="font-[Antonio] text-center lg:text-start">
+          <p data-aos="flip-down" className="font-[Antonio] text-center lg:text-start">
             Sign up for our newsletter & get exclusive offers and invites!
           </p>
           <form className="flex gap-3 flex-col lg:flex-row">
-            <div>
+            <div data-aos="zoom-in">
                 <input type="email" className="border-none outline-none bg-[#F7E5B3] placeholder:text-black placeholder:font-[Antonio]" placeholder="Your Email ....."/>
                 <div className="lg:w-[300px] w-[220px] h-[1px] bg-black mt-3"></div>
             </div>
-            <div className=' mx-auto '>
-        <button type="button" className='px-5 font-[reemkufi] font-semibold py-2  hover:bg-black hover:text-[#e8af3e] bg-[#E8AF3E]'>SUMBIT</button>
+            <div data-aos="zoom-out" className=' mx-auto '>
+        <button  type="button" className='px-5 font-[reemkufi] font-semibold py-2  hover:bg-black hover:text-[#e8af3e] bg-[#E8AF3E]'>SUMBIT</button>
       </div>
           </form>
         </div>

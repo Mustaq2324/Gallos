@@ -44,7 +44,7 @@ function Navabar() {
           <div className="fixed w-full top-0 z-50 overflow-x-hidden bg-[#F7E5B3] transition-all duration-500 ">
             <div className="flex items-center justify-between">
               <img
-                className="object-cover mt-1 w-[150px] lg:w-[200px] transition-all duration-500 lg:mx-auto ms-5 "
+                className="object-cover mt-1 w-[120px] lg:w-[200px] transition-all duration-500 lg:mx-auto ms-5"
                 src={logo}
               />
               {/* mobile */}
@@ -236,7 +236,6 @@ function Navabar() {
           </div>
         )}
       </div>
-      
     </div>
   );
 }

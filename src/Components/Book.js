@@ -2,20 +2,21 @@ import React from "react";
 import logo from "../Assest/opentable.png"
 import { IoPersonOutline } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa6"
-
+import f from "aos"
 function Book() {
+  f.init({duration:1000})
   return (
     <div>
       <div className="bg-[#F7E5B3]   w-full">
         <div className=" flex items-center justify-center pt-16 flex-col  h-full gap-3 pb-16">
-          <h1 className="font-vast-shadow text-black text-2xl pt-4 lg:pt-0 lg:text-5xl">
+          <h1 className="font-vast-shadow text-black text-2xl pt-4 lg:pt-0 lg:text-5xl" data-aos="flip-up">
             RESERVATIONS
           </h1>
-          <p className="font-[Antonio] text-center lg:text-start">
+          <p data-aos="zoom-out-up" className="font-[Antonio] text-center lg:text-start">
             Call us at <span className="underline">(614)-754-8176</span> or book
             a table through Open Table:
           </p>
-          <div className="mt-5 flex flex-col items-center lg:block bg-white lg:bg-[#F7E5B3] px-4 pt-4 overflow-hidden">
+          <div data-aos="zoom-in-up" className="mt-5 flex flex-col items-center lg:block bg-white lg:bg-[#F7E5B3] px-4 pt-4 overflow-hidden">
             <p className="text-gray-800 font-semibold text-lg mb-2">Find a Table</p>
             <form className="flex flex-col lg:flex-row ">
               <div className="flex items-center justify-center cursor-pointer gap-1 bg-white h-[40px] w-[230px] px-2 border-2 ">
